@@ -1,0 +1,27 @@
+:root {
+  --page-bg: #f6f3ed;
+  --surface: #fffcf7;
+  --text: #171717;
+  --muted: #706b63;
+  --line: rgba(23, 23, 23, 0.12);
+  --accent: #c95836;
+  --shadow: 0 24px 70px rgba(24, 20, 16, 0.16);
+  --font-family:
+    Inter, "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", Meiryo,
+    sans-serif;
+  --header-height: 76px;
+  --content-width: 1180px;
+  --page-padding: clamp(20px, 4vw, 56px);
+  --card-width: clamp(460px, 50vw, 740px);
+  --card-height: calc((122svh - (var(--gap) * 2)) / 3);
+  --card-radius: 0;
+  --gap: clamp(20px, 2.3vw, 32px);
+  --grid-rows: 3;
+  --grid-columns: 3;
+  --scroll-duration: 42s;
+  --stage-tilt: -7deg;
+  --scroll-distance: calc(
+    (var(--card-width) * var(--grid-columns)) +
+      (var(--gap) * var(--grid-columns))
+  );
+}

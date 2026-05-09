@@ -1,0 +1,23 @@
+@media (max-width: 720px) {
+  :root {
+    --header-height: 98px;
+    --card-width: 380px;
+    --gap: 16px;
+    --stage-tilt: -6deg;
+  }
+
+  .site-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .site-nav {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .modal-meta {
+    grid-template-columns: 1fr;
+  }
+}
